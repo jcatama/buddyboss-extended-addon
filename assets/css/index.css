@@ -1,0 +1,21 @@
+#unsubscribe-all-toggle {
+  width: 100%;
+  max-width: 210px;
+  float: right;
+}
+#un-subscribe-single a {
+  padding: 5px;
+  border: none;
+  text-align: left;
+}
+#un-subscribe-single a i {
+  font-size: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .buddypress-wrap .item-body .screen-heading {
+    text-align: center;
+  }
+  #unsubscribe-all-toggle {
+    float: none;
+  }
+}

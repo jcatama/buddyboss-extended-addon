@@ -1,0 +1,30 @@
+{
+    "name": "jcatama/buddyboss-extended-addon",
+    "description": "🚀 All-in-one enhancement plugin that improves WordPress & BuddyBoss integration.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+      "phpcompatibility/phpcompatibility-wp": "2.1.0",
+      "dealerdirect/phpcodesniffer-composer-installer": "0.7.1",
+      "wp-coding-standards/wpcs": "2.3.0"
+    },
+    "require": {
+      "php": ">=7.3",
+      "composer/installers": "^1.7"
+    },
+    "scripts": {
+      "lint": [
+        "@composer validate --strict",
+        "phpcs"
+      ],
+      "lint-fix": [
+        "@composer validate --strict",
+        "phpcbf"
+      ]
+    },
+    "config": {
+      "sort-packages": true
+    }
+  }
