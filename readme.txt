@@ -46,6 +46,9 @@ Yes it is 100% free to use and distribute.
 
 == Changelog ==
 
+= 1.2.1 =
+* Fixed: index.css not found.
+
 = 1.2.0 =
 * Add translation support.
 * Plugin improvements.
