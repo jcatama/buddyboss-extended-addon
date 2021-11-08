@@ -42,9 +42,14 @@ Yes it is 100% free to use and distribute.
 
 1. Plugin setting can be found under: Settings > Buddyboss Extended Add-on.
 2. Unsubscribe/Subcribe button in forum card.
-2. "Remove all subscriptions" button under /forums/subscriptions.
+3. "Remove all subscriptions" button under /forums/subscriptions.
 
 == Changelog ==
+
+= 1.2.2 =
+* Fixed: the "unsubscribe from all" buttom disapeared.
+* - Thanks to @taliabarlev for finding the issue.
+* - https://wordpress.org/support/topic/the-unsubscribe-from-all-buttom-disapeared/#post-15047501
 
 = 1.2.1 =
 * Fixed: index.css not found.
