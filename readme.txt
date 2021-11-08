@@ -4,7 +4,7 @@ Donate link: https://www.paypal.me/jcatama
 Tags: buddyboss, buddypress, learndash, forums, groups, discussions, topics
 Requires at least: 5.7
 Tested up to: 5.8
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
