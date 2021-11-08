@@ -5,7 +5,7 @@
  * Description: 🚀 All-in-one enhancement plugin that improves WordPress & BuddyBoss integration.
  * Author:      John Albert Catama
  * Author URI:  https://github.com/jcatama
- * Version:     1.2.1
+ * Version:     1.2.2
  * Text Domain: buddyboss-extended-addon
  * Domain Path: /languages/
  * License:     GPL2
@@ -17,7 +17,7 @@
 defined( 'ABSPATH' ) || exit;
 
 if ( ! defined( 'BBEA_VERSION' ) ) {
-	define( 'BBEA_VERSION', 'v1.2.1' );
+	define( 'BBEA_VERSION', 'v1.2.2' );
 }
 
 if ( ! defined( 'BBEA_PLUGIN_DIR' ) ) {
@@ -126,7 +126,7 @@ if ( 1 === absint( get_option( 'bbea_option_all_unsubscribe' ) ) ) :
 	 * @return string
 	 */
 	function bbea_get_template_path() {
-		return BBEA_PLUGIN_DIR . 'templates/bbpress/';
+		return BBEA_PLUGIN_DIR . 'includes/templates/bbpress/';
 	}
 
 endif;
